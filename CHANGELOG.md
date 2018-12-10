@@ -17,11 +17,12 @@ way to update this template, but currently, we follow a pattern:
 - [change] Remove generic perUnit translations and replace them with specific night, day and unit
   translations depending on booking unit chosen in config.
   [#970](https://github.com/sharetribe/flex-template-web/pull/970)
-
 - [fix] Formatting docs with newest Prettier - related commit was lost in #967 at some point.
   [#975](https://github.com/sharetribe/flex-template-web/pull/975)
 - [change] Improved documents related to onboarding: env.md, deploying-to-production.md,
   map-providers.md [#971](https://github.com/sharetribe/flex-template-web/pull/971)
+- [change] Extract SectionBooking to a distinct component from ListingPage.
+  [#969](https://github.com/sharetribe/flex-template-web/pull/969)
 - [change] Update outdated dependencies.
   [#967](https://github.com/sharetribe/flex-template-web/pull/967)
   - **Note:** Updating Prettier caused multiple file changes mostly to `.md` files and `compose`
